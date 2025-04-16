@@ -16,6 +16,4 @@ describe('Hero', () => {
     render(<Hero />);
     expect(screen.getByRole('form')).toBeInTheDocument();
   });
-
-  // Removed image test
 });

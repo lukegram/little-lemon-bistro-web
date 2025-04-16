@@ -7,7 +7,6 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="font-playfair text-xl font-bold mb-4">Little Lemon</h3>
-            {/* Removed logo image */}
           </div>
           
           <div>
