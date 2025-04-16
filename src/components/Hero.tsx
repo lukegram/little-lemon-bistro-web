@@ -23,7 +23,7 @@ const Hero = () => {
 
         <div className="absolute inset-0 w-full h-full">
           <img
-            src="/hero.jpg"
+            src="/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png"
             alt="Little Lemon restaurant interior"
             className="w-full h-full object-cover"
             loading="eager"
