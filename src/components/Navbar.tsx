@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 grid grid-cols-12 items-center">
         <div className="col-span-3 flex items-center gap-2">
           <img
-            src="/lovable-uploads/logo.png"
+            src="/logo.png"
             alt="Little Lemon logo"
             className="h-12"
           />
