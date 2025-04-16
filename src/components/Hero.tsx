@@ -1,4 +1,3 @@
-
 import ReservationForm from "./ReservationForm";
 
 const Hero = () => {
@@ -23,7 +22,7 @@ const Hero = () => {
 
         <div className="absolute inset-0 w-full h-full">
           <img
-            src="/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png"
+            src="/lovable-uploads/96b88904-bf5b-4257-a3a3-6a8fb47079d1.png"
             alt="Little Lemon restaurant interior"
             className="w-full h-full object-cover"
             loading="eager"

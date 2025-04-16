@@ -8,21 +8,21 @@ const specials = [
     name: "Greek Salad",
     price: "$12.99",
     description: "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.",
-    image: "/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png"
+    image: "/lovable-uploads/a0025e0c-e6ce-4564-b5bc-b2bcf77664fd.png"
   },
   {
     id: 2,
     name: "Bruschetta",
     price: "$5.99",
     description: "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
-    image: "/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png"
+    image: "/lovable-uploads/02c3d639-43b9-4760-a359-684ecc6bfb46.png"
   },
   {
     id: 3,
     name: "Lemon Dessert",
     price: "$5.00",
     description: "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
-    image: "/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png"
+    image: "/lovable-uploads/d815755e-da7a-4dd0-94f2-59c6d3cd5149.png"
   }
 ];
 

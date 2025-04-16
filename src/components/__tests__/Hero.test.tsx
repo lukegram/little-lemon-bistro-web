@@ -22,6 +22,6 @@ describe('Hero', () => {
     const image = screen.getByAltText('Little Lemon restaurant interior');
     expect(image).toBeInTheDocument();
     expect(image).toHaveAttribute('loading', 'eager');
-    expect(image).toHaveAttribute('src', '/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png');
+    expect(image).toHaveAttribute('src', '/lovable-uploads/96b88904-bf5b-4257-a3a3-6a8fb47079d1.png');
   });
 });

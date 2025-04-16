@@ -1,4 +1,3 @@
-
 import { Menu, ShoppingCart } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -8,7 +7,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 grid grid-cols-12 items-center">
         <div className="col-span-3 flex items-center gap-2">
           <img
-            src="/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png"
+            src="/lovable-uploads/e68eaa61-a458-415f-ab2f-c48172b7ccd1.png"
             alt="Little Lemon logo"
             className="h-12"
           />
