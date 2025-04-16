@@ -8,28 +8,28 @@ const testimonials = [
     name: "Sara Lopez",
     rating: 5,
     comment: "Amazing authentic Mediterranean food, great atmosphere!",
-    avatar: "/customer1.jpg"
+    avatar: "/lovable-uploads/2600fedc-eb48-4eff-8716-d47ad9998aa7.png"
   },
   {
     id: 2,
     name: "Jim Do",
     rating: 5,
     comment: "Best Mediterranean restaurant in Chicago!",
-    avatar: "/customer2.jpg"
+    avatar: "/lovable-uploads/73e6e710-f651-4499-a38d-85058455910f.png"
   },
   {
     id: 3,
     name: "Tony Lopez",
     rating: 5,
     comment: "Great family restaurant with amazing service!",
-    avatar: "/customer3.jpg"
+    avatar: "/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png"
   },
   {
     id: 4,
     name: "Sara Lopez",
     rating: 5,
     comment: "Such a cozy place with delicious food!",
-    avatar: "/customer4.jpg"
+    avatar: "/lovable-uploads/2600fedc-eb48-4eff-8716-d47ad9998aa7.png"
   }
 ];
 
