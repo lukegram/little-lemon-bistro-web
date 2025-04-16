@@ -13,19 +13,19 @@ const ReservationForm = () => {
   const [date, setDate] = useState<Date>();
 
   return (
-    <form className="bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow-lg max-w-md w-full">
-      <h3 className="font-playfair text-2xl font-semibold mb-4">Reserve a Table</h3>
+    <form className="bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow-lg max-w-md w-full" role="form">
+      <h3 className="font-playfair text-2xl font-semibold mb-4 text-black">Reserve a Table</h3>
       <div className="space-y-4">
         <div className="space-y-2">
-          <Label htmlFor="name">Name</Label>
-          <Input id="name" placeholder="Your name" />
+          <Label htmlFor="name" className="text-black">Name</Label>
+          <Input id="name" placeholder="Your name" className="text-black" />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="email">Email</Label>
-          <Input id="email" type="email" placeholder="your@email.com" />
+          <Label htmlFor="email" className="text-black">Email</Label>
+          <Input id="email" type="email" placeholder="your@email.com" className="text-black" />
         </div>
         <div className="space-y-2">
-          <Label>Date</Label>
+          <Label className="text-black">Date</Label>
           <Popover>
             <PopoverTrigger asChild>
               <Button
@@ -45,16 +45,15 @@ const ReservationForm = () => {
                 selected={date}
                 onSelect={setDate}
                 initialFocus
-                className="pointer-events-auto"
               />
             </PopoverContent>
           </Popover>
         </div>
         <div className="space-y-2">
-          <Label htmlFor="guests">Number of Guests</Label>
-          <Input id="guests" type="number" min="1" max="10" placeholder="2" />
+          <Label htmlFor="guests" className="text-black">Number of Guests</Label>
+          <Input id="guests" type="number" min="1" max="10" placeholder="2" className="text-black" />
         </div>
-        <Button type="submit" className="w-full bg-[#F97316] hover:bg-[#F97316]/90">
+        <Button type="submit" className="w-full bg-yellow-400 text-black hover:bg-yellow-500">
           Reserve Now
         </Button>
       </div>
