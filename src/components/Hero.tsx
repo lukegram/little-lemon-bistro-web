@@ -1,5 +1,5 @@
 
-import { ReservationForm } from "./ReservationForm";
+import ReservationForm from "./ReservationForm";
 
 const Hero = () => {
   return (
