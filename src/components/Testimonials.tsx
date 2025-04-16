@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "./ui/card";
 import { Star } from "lucide-react";
 
@@ -8,28 +7,28 @@ const testimonials = [
     name: "Sara Lopez",
     rating: 5,
     comment: "Amazing authentic Mediterranean food, great atmosphere!",
-    avatar: "/lovable-uploads/28e3048c-8280-405b-a42d-cb062981280c.png"
+    avatar: "/lovable-uploads/ddf08d30-bbd3-47ac-a40a-f0607e8e32ba.png"
   },
   {
     id: 2,
     name: "Jim Do",
     rating: 5,
     comment: "Best Mediterranean restaurant in Chicago!",
-    avatar: "/lovable-uploads/02c3d639-43b9-4760-a359-684ecc6bfb46.png"
+    avatar: "/lovable-uploads/66babf7d-994c-42b6-9728-77a8d100e897.png"
   },
   {
     id: 3,
     name: "Tony Lopez",
     rating: 5,
     comment: "Great family restaurant with amazing service!",
-    avatar: "/lovable-uploads/a0025e0c-e6ce-4564-b5bc-b2bcf77664fd.png"
+    avatar: "/lovable-uploads/553a33d9-ce0a-4538-8fa4-3e4cbaafbff5.png"
   },
   {
     id: 4,
     name: "Sarah Johnson",
     rating: 5,
     comment: "Such a cozy place with delicious food!",
-    avatar: "/lovable-uploads/c8b99cf1-c29c-48e8-a8cf-c5b3419ed7d6.png"
+    avatar: "/lovable-uploads/4b242824-cccf-4511-bfc1-d2b5e43b0366.png"
   }
 ];
 
