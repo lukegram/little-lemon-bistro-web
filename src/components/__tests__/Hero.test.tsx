@@ -22,6 +22,6 @@ describe('Hero', () => {
     const image = screen.getByAltText('Little Lemon restaurant interior');
     expect(image).toBeInTheDocument();
     expect(image).toHaveAttribute('loading', 'eager');
-    expect(image).toHaveAttribute('src', '/hero.jpg');
+    expect(image).toHaveAttribute('src', '/lovable-uploads/hero.jpg');
   });
 });

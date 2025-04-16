@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="font-playfair text-xl font-bold mb-4">Little Lemon</h3>
             <img
-              src="/logo.png"
+              src="/lovable-uploads/logo.png"
               alt="Little Lemon logo"
               className="h-16 mb-4"
             />
