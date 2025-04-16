@@ -7,22 +7,19 @@ const specials = [
     id: 1,
     name: "Greek Salad",
     price: "$12.99",
-    description: "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.",
-    image: "/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png"
+    description: "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."
   },
   {
     id: 2,
     name: "Bruschetta",
     price: "$5.99",
-    description: "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
-    image: "/lovable-uploads/96b88904-bf5b-4257-a3a3-6a8fb47079d1.png"
+    description: "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil."
   },
   {
     id: 3,
     name: "Lemon Dessert",
     price: "$5.00",
-    description: "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
-    image: "/lovable-uploads/b6c9a478-0650-4160-a75f-44ec91176082.png"
+    description: "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined."
   }
 ];
 
@@ -37,12 +34,6 @@ const Specials = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {specials.map((item) => (
             <Card key={item.id} className="overflow-hidden">
-              <img
-                src={item.image}
-                alt={item.name}
-                className="w-full h-48 object-cover"
-                loading="lazy"
-              />
               <CardContent className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold">{item.name}</h3>
@@ -66,3 +57,4 @@ const Specials = () => {
 };
 
 export default Specials;
+
