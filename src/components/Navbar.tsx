@@ -1,3 +1,4 @@
+
 import { Menu, ShoppingCart } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -6,6 +7,11 @@ const Navbar = () => {
     <nav className="fixed w-full bg-white z-50 border-b" role="navigation">
       <div className="container mx-auto px-4 py-4 grid grid-cols-12 items-center">
         <div className="col-span-3 flex items-center gap-2">
+          <img 
+            src="/lovable-uploads/fe1a4892-1935-46a4-8861-bfbae152296a.png" 
+            alt="Little Lemon Logo" 
+            className="h-10 w-10 mr-2" 
+          />
           <span className="font-playfair text-xl font-bold text-black">Little Lemon</span>
         </div>
         

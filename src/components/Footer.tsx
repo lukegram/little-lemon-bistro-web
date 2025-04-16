@@ -6,7 +6,14 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-playfair text-xl font-bold mb-4">Little Lemon</h3>
+            <div className="flex items-center gap-2">
+              <img 
+                src="/lovable-uploads/fe1a4892-1935-46a4-8861-bfbae152296a.png" 
+                alt="Little Lemon Logo" 
+                className="h-10 w-10 mr-2" 
+              />
+              <h3 className="font-playfair text-xl font-bold">Little Lemon</h3>
+            </div>
           </div>
           
           <div>
