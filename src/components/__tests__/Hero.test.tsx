@@ -1,3 +1,4 @@
+
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
 import Hero from '../Hero';
@@ -21,6 +22,6 @@ describe('Hero', () => {
     const image = screen.getByAltText('Little Lemon restaurant interior');
     expect(image).toBeInTheDocument();
     expect(image).toHaveAttribute('loading', 'eager');
-    expect(image).toHaveAttribute('src', '/hero.jpg');
+    expect(image).toHaveAttribute('src', '/lovable-uploads/96001db1-a075-4616-84e6-ec01b0736f9c.png');
   });
 });
