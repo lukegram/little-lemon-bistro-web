@@ -19,7 +19,7 @@ describe('Hero', () => {
 
   it('has accessible image', () => {
     render(<Hero />);
-    const image = screen.getByAltText('Featured Mediterranean dish');
+    const image = screen.getByAltText('Little Lemon restaurant interior');
     expect(image).toBeInTheDocument();
     expect(image).toHaveAttribute('loading', 'eager');
   });
