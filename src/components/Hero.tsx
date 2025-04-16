@@ -1,5 +1,5 @@
 
-import { Button } from "./ui/button";
+import { ReservationForm } from "./ReservationForm";
 
 const Hero = () => {
   return (
@@ -13,16 +13,11 @@ const Hero = () => {
           <p className="text-lg mb-8 max-w-md">
             We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
           </p>
-          <Button 
-            className="bg-[#F4CE14] text-black hover:bg-[#F4CE14]/90"
-            aria-label="Reserve a table"
-          >
-            Reserve a table
-          </Button>
+          <ReservationForm />
         </div>
         <div className="lg:w-1/2 relative">
           <img
-            src="/lovable-uploads/2600fedc-eb48-4eff-8716-d47ad9998aa7.png"
+            src="https://source.unsplash.com/random/800x600/?mediterranean-food"
             alt="Featured Mediterranean dish"
             className="rounded-lg shadow-xl max-w-md mx-auto"
             loading="eager"

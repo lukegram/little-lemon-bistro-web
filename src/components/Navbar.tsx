@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img
-            src="/lovable-uploads/2600fedc-eb48-4eff-8716-d47ad9998aa7.png"
+            src="/lovable-uploads/8b84ac3e-075f-4f0a-a74b-4bed23f14bcd.png"
             alt="Little Lemon logo"
             className="h-12"
           />

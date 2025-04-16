@@ -12,9 +12,13 @@ describe('Hero', () => {
     expect(screen.getByText(/family owned Mediterranean restaurant/i)).toBeInTheDocument();
   });
 
+  it('has reservation form', () => {
+    render(<Hero />);
+    expect(screen.getByRole('form')).toBeInTheDocument();
+  });
+
   it('has accessible image', () => {
     render(<Hero />);
-    
     const image = screen.getByAltText('Featured Mediterranean dish');
     expect(image).toBeInTheDocument();
     expect(image).toHaveAttribute('loading', 'eager');
